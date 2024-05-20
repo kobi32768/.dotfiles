@@ -13,6 +13,10 @@ eval "$(starship init zsh)"
 alias ls='ls -al'
 alias apt=apt-cyg
 
+# up/down: prev/next command
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+
 # ctrl + left/right: move word
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
