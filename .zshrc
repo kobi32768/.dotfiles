@@ -10,6 +10,7 @@ compinit
 # starship
 eval "$(starship init zsh)"
 
+alias ls='ls -al'
 alias apt=apt-cyg
 
 # ctrl + left/right
