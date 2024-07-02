@@ -10,8 +10,10 @@ compinit
 # starship
 eval "$(starship init zsh)"
 
-alias ls='ls -alF'
+# alias
 alias apt='apt-cyg'
+alias ls='ls -aF'
+alias ll='ls -alF'
 
 # up/down: prev/next command
 bindkey '^[[A' up-line-or-search
