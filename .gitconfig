@@ -1,0 +1,7 @@
+[core]
+	autocrlf = input
+[user]
+	email = kobi32768@gmail.com
+	name = kobi32768
+[alias]
+	cd = switch
