@@ -8,6 +8,9 @@ compinit
 # End of lines added by compinstall
 
 # starship
+# Windows: copy starship.toml to C:/Users/USERNAME/.config/starship.toml
+# Linux:   copy starship.toml to ~/.config/starship.toml
+unset STARSHIP_CONFIG
 eval "$(starship init zsh)"
 
 # alias
